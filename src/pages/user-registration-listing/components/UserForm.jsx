@@ -68,8 +68,7 @@ const UserForm = () => {
         </h1>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Name */}
-          <div>
+            <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Full Name
             </label>
@@ -149,3 +148,4 @@ const UserForm = () => {
 };
 
 export default UserForm;
+
